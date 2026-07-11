@@ -1,0 +1,24 @@
+# Build trees
+build_*/
+build-*/
+cmake-build-*/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local binaries / objects
+*.o
+*.a
+*.dylib
+*.so
+a.out
+hft_conflator
+hft_tests
+
+# Generated at repo root by runs (keep results/ and docs/baselines/)
+/benchmark_report_release.json
+/benchmark_report_opt_release.json

@@ -1,0 +1,23 @@
+{
+  "agent_name": "hft-asm",
+  "environment": {
+    "os": "macOS",
+    "compiler": "Clang AArch64 asm + C harness",
+    "cpu_model": "Apple M3 Ultra",
+    "build_type": "release"
+  },
+  "metrics": {
+    "total_messages_processed": 499972,
+    "total_execution_time_ms": 5016.006000,
+    "throughput_msg_per_sec": 99675.319368,
+    "latency_ns": {
+      "min": 1,
+      "max": 17622000,
+      "mean": 526.363160,
+      "p50": 1.000000,
+      "p90": 1.000000,
+      "p99": 3000.000000,
+      "p99_9": 5000.000000
+    }
+  }
+}
